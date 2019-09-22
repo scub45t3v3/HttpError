@@ -1,0 +1,202 @@
+[
+  {
+    "code": 400,
+    "status": "Bad Request",
+    "message": "Please, correct your request and try again."
+  },
+  {
+    "code": 401,
+    "status": "Unauthorized",
+    "message": "Please, authenticate and try again."
+  },
+  {
+    "code": 402,
+    "status": "Payment Required",
+    "message": "Payment is required to use this service."
+  },
+  {
+    "code": 403,
+    "status": "Forbidden",
+    "message": "You lack permission to preform this action."
+  },
+  {
+    "code": 404,
+    "status": "Not Found",
+    "message": "The requested document was not found."
+  },
+  {
+    "code": 405,
+    "status": "Method Not Allowed",
+    "message": "Please, check your request method and try again."
+  },
+  {
+    "code": 406,
+    "status": "Not Acceptable",
+    "message": "The requested document format is not supported."
+  },
+  {
+    "code": 407,
+    "status": "Proxy Authentication Required",
+    "message": "Please, authenticate with the proxy server and try again."
+  },
+  {
+    "code": 408,
+    "status": "Request Timeout",
+    "message": "Sorry, it appears we are on break, please try again later."
+  },
+  {
+    "code": 409,
+    "status": "Conflict",
+    "message": "Houston, we have a conflict, please reload the resource and try again."
+  },
+  {
+    "code": 410,
+    "status": "Gone",
+    "message": "Sorry, but that resource has been removed."
+  },
+  {
+    "code": 411,
+    "status": "Length Required",
+    "message": "Please, correct the Length header and try again."
+  },
+  {
+    "code": 412,
+    "status": "Precondition Failed",
+    "message": "Sorry, it appears 1 or more preconditions on the request have changed, please correct and try again."
+  },
+  {
+    "code": 413,
+    "status": "Payload Too Large",
+    "message": "Request payload is too large and can not be processed."
+  },
+  {
+    "code": 414,
+    "status": "URI Too Long",
+    "message": "Request uri is too large and can not be processed."
+  },
+  {
+    "code": 415,
+    "status": "Unsupported Media Type",
+    "message": "Please, try again with a different media format."
+  },
+  {
+    "code": 416,
+    "status": "Range Not Satisfiable",
+    "message": "Requested range is not satisfiable, please check Range and try again."
+  },
+  {
+    "code": 417,
+    "status": "Expectation Failed",
+    "message": "Sorry, your expectation can not be meet, please check Expect and try again."
+  },
+  {
+    "code": 418,
+    "status": "I'm a teapot",
+    "message": "Tip me over, and pour me out."
+  },
+  {
+    "code": 421,
+    "status": "Misdirected Request",
+    "message": "Sorry, we got misdirected, please try again later."
+  },
+  {
+    "code": 422,
+    "status": "Unprocessable Entity",
+    "message": "Sorry, it appears your document instructions are semantically erroneous."
+  },
+  {
+    "code": 423,
+    "status": "Locked",
+    "message": "Document is currently locked, please try again later."
+  },
+  {
+    "code": 424,
+    "status": "Failed Dependency",
+    "message": "Sorry, it appears a dependent request has failed please retry previous dependent request and try again."
+  },
+  {
+    "code": 426,
+    "status": "Upgrade Required",
+    "message": "Please, upgrade and try again."
+  },
+  {
+    "code": 428,
+    "status": "Precondition Required",
+    "message": "Please, add preconditions to your request and try again."
+  },
+  {
+    "code": 429,
+    "status": "Too Many Requests",
+    "message": "Sorry, you have exceeded your rate limit, please try again later."
+  },
+  {
+    "code": 431,
+    "status": "Request Header Fields Too Large",
+    "message": "Request header is too large and can not be processed."
+  },
+  {
+    "code": 451,
+    "status": "Unavailable For Legal Reasons",
+    "message": "Due to legal reasons this resource has been removed."
+  },
+  {
+    "code": 500,
+    "status": "Internal Server Error",
+    "message": "Sorry, it appears we had an unexpected error, please try again."
+  },
+  {
+    "code": 501,
+    "status": "Not Implemented",
+    "message": "Sorry, this is not fully implemented, please try later."
+  },
+  {
+    "code": 502,
+    "status": "Bad Gateway",
+    "message": "Sorry, It appears we recieved an error from another service that is needed to fulfill your request, please try again later."
+  },
+  {
+    "code": 503,
+    "status": "Service Unavailable",
+    "message": "Sorry, this service is currently unavailable, please try later."
+  },
+  {
+    "code": 504,
+    "status": "Gateway Timeout",
+    "message": "Sorry, it appears another service is taking to long and we cannot wait any longer."
+  },
+  {
+    "code": 505,
+    "status": "HTTP Version Not Supported",
+    "message": "Please, try a diffrent protocol version and try again."
+  },
+  {
+    "code": 506,
+    "status": "Variant Also Negotiates",
+    "message": "Sorry, it appears there is a misconfiguration on our end."
+  },
+  {
+    "code": 507,
+    "status": "Insufficient Storage",
+    "message": "Sorry, it appears we have no more room for storage."
+  },
+  {
+    "code": 508,
+    "status": "Loop Detected",
+    "message": "Sorry, We have detected an infintie loop and had to stop the request, please try again later."
+  },
+  {
+    "code": 510,
+    "status": "Not Extended",
+    "message": "The policy for accessing this resource has not been met by this request."
+  },
+  {
+    "code": 511,
+    "status": "Network Authentication Required",
+    "message": "Please, authenticate with the network and try again."
+  },
+  {
+    "code": 520,
+    "status": "Unknown Error",
+    "message": "Sorry, an unexpected error has occured, please try again later."
+  }
+]
