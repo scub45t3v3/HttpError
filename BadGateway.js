@@ -9,14 +9,14 @@ const BadGateway = function(opt = {}) {
   }
 
   // define private properties
-  let message = 'Sorry, It appears we recieved an error from another service that is needed to fulfill your request, please try again later.';
+  let message = 'Sorry, It appears we received an error from another service that is needed to fulfill your request, please try again later.';
 
   const getMessage = () => {
     return message;
   }; // end getMessage
 
   const setMessage = (value) => {
-    message = (value && `${value}`.trim()) || 'Sorry, It appears we recieved an error from another service that is needed to fulfill your request, please try again later.';
+    message = (value && `${value}`.trim()) || 'Sorry, It appears we received an error from another service that is needed to fulfill your request, please try again later.';
 
     return this;
   }; // end setMessage

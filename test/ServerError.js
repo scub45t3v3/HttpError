@@ -111,7 +111,7 @@ describe('ServerError', () => {
       .isInstanceOf(BadGateway)
       .isEnumerable('code', 502)
       .isEnumerable('status', 'Bad Gateway')
-      .isEnumerable('message', 'Sorry, It appears we recieved an error from another service that is needed to fulfill your request, please try again later.')
+      .isEnumerable('message', 'Sorry, It appears we received an error from another service that is needed to fulfill your request, please try again later.')
       .isEnumerable('debug')
       .isEnumerable('cause');
   }); // end it
@@ -124,7 +124,7 @@ describe('ServerError', () => {
       .isInstanceOf(BadGateway)
       .isEnumerable('code', 502)
       .isEnumerable('status', 'Bad Gateway')
-      .isEnumerable('message', 'Sorry, It appears we recieved an error from another service that is needed to fulfill your request, please try again later.')
+      .isEnumerable('message', 'Sorry, It appears we received an error from another service that is needed to fulfill your request, please try again later.')
       .isEnumerable('debug')
       .isEnumerable('cause');
   }); // end it
@@ -137,7 +137,7 @@ describe('ServerError', () => {
       .isInstanceOf(BadGateway)
       .isEnumerable('code', 502)
       .isEnumerable('status', 'Bad Gateway')
-      .isEnumerable('message', 'Sorry, It appears we recieved an error from another service that is needed to fulfill your request, please try again later.')
+      .isEnumerable('message', 'Sorry, It appears we received an error from another service that is needed to fulfill your request, please try again later.')
       .isEnumerable('debug')
       .isEnumerable('cause');
   }); // end it

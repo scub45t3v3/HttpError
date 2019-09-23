@@ -1309,14 +1309,14 @@ error.status; // Not Implemented
 error.message; // Sorry, this is not fully implemented, please try later.
 ```
 
-### `BadGateway(opt?: {message?: string = 'Sorry, It appears we recieved an error from another service that is needed to fulfill your request, please try again later.', debug?: any, cause?: any} = {})`
+### `BadGateway(opt?: {message?: string = 'Sorry, It appears we received an error from another service that is needed to fulfill your request, please try again later.', debug?: any, cause?: any} = {})`
 **Added in:** v1.0.0
 
 BadGateway class constructor
 
 **arguments:**
 1. `opt: object = {}`
-  - `message?: string = 'Sorry, It appears we recieved an error from another service that is needed to fulfill your request, please try again later.'`
+  - `message?: string = 'Sorry, It appears we received an error from another service that is needed to fulfill your request, please try again later.'`
   - `debug?: any`
   - `cause?: any`
 
@@ -1329,7 +1329,7 @@ const error = new BadGateway();
 error instanceof BadGateway; // true
 error.code; // 502
 error.status; // Bad Gateway
-error.message; // Sorry, It appears we recieved an error from another service that is needed to fulfill your request, please try again later.
+error.message; // Sorry, It appears we received an error from another service that is needed to fulfill your request, please try again later.
 ```
 
 alternatively
@@ -1342,7 +1342,7 @@ const error = BadGateway();
 error instanceof BadGateway; // true
 error.code; // 502
 error.status; // Bad Gateway
-error.message; // Sorry, It appears we recieved an error from another service that is needed to fulfill your request, please try again later.
+error.message; // Sorry, It appears we received an error from another service that is needed to fulfill your request, please try again later.
 ```
 
 ### `ServiceUnavailable(opt?: {message?: string = 'Sorry, this service is currently unavailable, please try later.', debug?: any, cause?: any} = {})`

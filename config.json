@@ -152,7 +152,7 @@
   {
     "code": 502,
     "status": "Bad Gateway",
-    "message": "Sorry, It appears we recieved an error from another service that is needed to fulfill your request, please try again later."
+    "message": "Sorry, It appears we received an error from another service that is needed to fulfill your request, please try again later."
   },
   {
     "code": 503,

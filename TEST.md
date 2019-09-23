@@ -664,7 +664,7 @@ unit
   .isInstanceOf(BadGateway)
   .isEnumerable('code', 502)
   .isEnumerable('status', 'Bad Gateway')
-  .isEnumerable('message', 'Sorry, It appears we recieved an error from another service that is needed to fulfill your request, please try again later.')
+  .isEnumerable('message', 'Sorry, It appears we received an error from another service that is needed to fulfill your request, please try again later.')
   .isEnumerable('debug')
   .isEnumerable('cause')
   .hasProperty('VERSION', version);
@@ -678,7 +678,7 @@ unit
   .isInstanceOf(BadGateway)
   .isEnumerable('code', 502)
   .isEnumerable('status', 'Bad Gateway')
-  .isEnumerable('message', 'Sorry, It appears we recieved an error from another service that is needed to fulfill your request, please try again later.')
+  .isEnumerable('message', 'Sorry, It appears we received an error from another service that is needed to fulfill your request, please try again later.')
   .isEnumerable('debug')
   .isEnumerable('cause')
   .hasProperty('VERSION', version);
@@ -725,7 +725,7 @@ should have a default message.
 const test = new BadGateway();
 unit
   .string(test.message)
-  .is('Sorry, It appears we recieved an error from another service that is needed to fulfill your request, please try again later.');
+  .is('Sorry, It appears we received an error from another service that is needed to fulfill your request, please try again later.');
 ```
 
 should accept falsy as the default message.
@@ -734,25 +734,25 @@ should accept falsy as the default message.
 const test = new BadGateway();
 unit
   .string(test.message)
-  .is('Sorry, It appears we recieved an error from another service that is needed to fulfill your request, please try again later.')
+  .is('Sorry, It appears we received an error from another service that is needed to fulfill your request, please try again later.')
   .given(test.message = undefined)
   .string(test.message)
-  .is('Sorry, It appears we recieved an error from another service that is needed to fulfill your request, please try again later.')
+  .is('Sorry, It appears we received an error from another service that is needed to fulfill your request, please try again later.')
   .given(test.message = null)
   .string(test.message)
-  .is('Sorry, It appears we recieved an error from another service that is needed to fulfill your request, please try again later.')
+  .is('Sorry, It appears we received an error from another service that is needed to fulfill your request, please try again later.')
   .given(test.message = false)
   .string(test.message)
-  .is('Sorry, It appears we recieved an error from another service that is needed to fulfill your request, please try again later.')
+  .is('Sorry, It appears we received an error from another service that is needed to fulfill your request, please try again later.')
   .given(test.message = 0)
   .string(test.message)
-  .is('Sorry, It appears we recieved an error from another service that is needed to fulfill your request, please try again later.')
+  .is('Sorry, It appears we received an error from another service that is needed to fulfill your request, please try again later.')
   .given(test.message = '')
   .string(test.message)
-  .is('Sorry, It appears we recieved an error from another service that is needed to fulfill your request, please try again later.')
+  .is('Sorry, It appears we received an error from another service that is needed to fulfill your request, please try again later.')
   .given(test.message = '     ')
   .string(test.message)
-  .is('Sorry, It appears we recieved an error from another service that is needed to fulfill your request, please try again later.');
+  .is('Sorry, It appears we received an error from another service that is needed to fulfill your request, please try again later.');
 ```
 
 should accept a string.
@@ -973,7 +973,7 @@ unit
   .isInstanceOf(BadGateway)
   .isEnumerable('code', 502)
   .isEnumerable('status', 'Bad Gateway')
-  .isEnumerable('message', 'Sorry, It appears we recieved an error from another service that is needed to fulfill your request, please try again later.')
+  .isEnumerable('message', 'Sorry, It appears we received an error from another service that is needed to fulfill your request, please try again later.')
   .isEnumerable('debug')
   .isEnumerable('cause')
   .hasProperty('VERSION', version)
@@ -982,7 +982,7 @@ unit
   .isInstanceOf(BadGateway)
   .isEnumerable('code', 502)
   .isEnumerable('status', 'Bad Gateway')
-  .isEnumerable('message', 'Sorry, It appears we recieved an error from another service that is needed to fulfill your request, please try again later.')
+  .isEnumerable('message', 'Sorry, It appears we received an error from another service that is needed to fulfill your request, please try again later.')
   .isEnumerable('debug')
   .isEnumerable('cause')
   .hasProperty('VERSION', version)
@@ -991,7 +991,7 @@ unit
   .isInstanceOf(BadGateway)
   .isEnumerable('code', 502)
   .isEnumerable('status', 'Bad Gateway')
-  .isEnumerable('message', 'Sorry, It appears we recieved an error from another service that is needed to fulfill your request, please try again later.')
+  .isEnumerable('message', 'Sorry, It appears we received an error from another service that is needed to fulfill your request, please try again later.')
   .isEnumerable('debug')
   .isEnumerable('cause')
   .hasProperty('VERSION', version)
@@ -1000,7 +1000,7 @@ unit
   .isInstanceOf(BadGateway)
   .isEnumerable('code', 502)
   .isEnumerable('status', 'Bad Gateway')
-  .isEnumerable('message', 'Sorry, It appears we recieved an error from another service that is needed to fulfill your request, please try again later.')
+  .isEnumerable('message', 'Sorry, It appears we received an error from another service that is needed to fulfill your request, please try again later.')
   .isEnumerable('debug')
   .isEnumerable('cause')
   .hasProperty('VERSION', version);
@@ -1059,7 +1059,7 @@ unit
   .object(test.get(['code', 'status'], 'message', ['cause', ['debug']]))
   .hasProperty('code', 502)
   .hasProperty('status', 'Bad Gateway')
-  .hasProperty('message', 'Sorry, It appears we recieved an error from another service that is needed to fulfill your request, please try again later.')
+  .hasProperty('message', 'Sorry, It appears we received an error from another service that is needed to fulfill your request, please try again later.')
   .hasProperty('cause', undefined)
   .hasProperty('debug', undefined);
 ```
@@ -1099,14 +1099,14 @@ unit
   .object(test.toJSON())
   .hasProperty('code', 502)
   .hasProperty('status', 'Bad Gateway')
-  .hasProperty('message', 'Sorry, It appears we recieved an error from another service that is needed to fulfill your request, please try again later.')
+  .hasProperty('message', 'Sorry, It appears we received an error from another service that is needed to fulfill your request, please try again later.')
   .hasProperty('debug', undefined)
   .hasProperty('cause', undefined)
   .given(test.debug = 'Missing required parameters.')
   .object(test.toJSON())
   .hasProperty('code', 502)
   .hasProperty('status', 'Bad Gateway')
-  .hasProperty('message', 'Sorry, It appears we recieved an error from another service that is needed to fulfill your request, please try again later.')
+  .hasProperty('message', 'Sorry, It appears we received an error from another service that is needed to fulfill your request, please try again later.')
   .hasProperty('debug', 'Missing required parameters.')
   .hasProperty('cause', undefined);
 ```
@@ -7903,7 +7903,7 @@ unit
   .isInstanceOf(BadGateway)
   .isEnumerable('code', 502)
   .isEnumerable('status', 'Bad Gateway')
-  .isEnumerable('message', 'Sorry, It appears we recieved an error from another service that is needed to fulfill your request, please try again later.')
+  .isEnumerable('message', 'Sorry, It appears we received an error from another service that is needed to fulfill your request, please try again later.')
   .isEnumerable('debug')
   .isEnumerable('cause');
 ```
@@ -7919,7 +7919,7 @@ unit
   .isInstanceOf(BadGateway)
   .isEnumerable('code', 502)
   .isEnumerable('status', 'Bad Gateway')
-  .isEnumerable('message', 'Sorry, It appears we recieved an error from another service that is needed to fulfill your request, please try again later.')
+  .isEnumerable('message', 'Sorry, It appears we received an error from another service that is needed to fulfill your request, please try again later.')
   .isEnumerable('debug')
   .isEnumerable('cause');
 ```
@@ -7935,7 +7935,7 @@ unit
   .isInstanceOf(BadGateway)
   .isEnumerable('code', 502)
   .isEnumerable('status', 'Bad Gateway')
-  .isEnumerable('message', 'Sorry, It appears we recieved an error from another service that is needed to fulfill your request, please try again later.')
+  .isEnumerable('message', 'Sorry, It appears we received an error from another service that is needed to fulfill your request, please try again later.')
   .isEnumerable('debug')
   .isEnumerable('cause');
 ```
@@ -19044,7 +19044,7 @@ unit
   .isInstanceOf(BadGateway)
   .isEnumerable('code', 502)
   .isEnumerable('status', 'Bad Gateway')
-  .isEnumerable('message', 'Sorry, It appears we recieved an error from another service that is needed to fulfill your request, please try again later.')
+  .isEnumerable('message', 'Sorry, It appears we received an error from another service that is needed to fulfill your request, please try again later.')
   .isEnumerable('debug')
   .isEnumerable('cause');
 ```
@@ -19059,7 +19059,7 @@ unit
   .isInstanceOf(BadGateway)
   .isEnumerable('code', 502)
   .isEnumerable('status', 'Bad Gateway')
-  .isEnumerable('message', 'Sorry, It appears we recieved an error from another service that is needed to fulfill your request, please try again later.')
+  .isEnumerable('message', 'Sorry, It appears we received an error from another service that is needed to fulfill your request, please try again later.')
   .isEnumerable('debug')
   .isEnumerable('cause');
 ```
@@ -19074,7 +19074,7 @@ unit
   .isInstanceOf(BadGateway)
   .isEnumerable('code', 502)
   .isEnumerable('status', 'Bad Gateway')
-  .isEnumerable('message', 'Sorry, It appears we recieved an error from another service that is needed to fulfill your request, please try again later.')
+  .isEnumerable('message', 'Sorry, It appears we received an error from another service that is needed to fulfill your request, please try again later.')
   .isEnumerable('debug')
   .isEnumerable('cause');
 ```
