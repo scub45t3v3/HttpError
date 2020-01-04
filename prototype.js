@@ -70,45 +70,45 @@ const prototype = Object.create(Error.prototype, {
     value: version,
     writable: false,
   },
-  setMessage: {
-    writable: false,
-    value: setMessage,
-  },
   getMessage: {
-    writable: false,
     value: getMessage,
-  },
-  setDebug: {
     writable: false,
-    value: setDebug,
+  },
+  setMessage: {
+    value: setMessage,
+    writable: false,
   },
   getDebug: {
-    writable: false,
     value: getDebug,
-  },
-  setCause: {
     writable: false,
-    value: setCause,
+  },
+  setDebug: {
+    value: setDebug,
+    writable: false,
   },
   getCause: {
-    writable: false,
     value: getCause,
-  },
-  set: {
     writable: false,
-    value: set,
+  },
+  setCause: {
+    value: setCause,
+    writable: false,
   },
   get: {
-    writable: false,
     value: get,
+    writable: false,
+  },
+  set: {
+    value: set,
+    writable: false,
   },
   toJSON: {
-    writable: false,
     value: toJSON,
+    writable: false,
   },
   toString: {
-    writable: false,
     value: toString,
+    writable: false,
   },
 });
 
