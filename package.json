@@ -33,13 +33,13 @@
   },
   "devDependencies": {
     "coveralls": "^3.0.6",
-    "eslint": "^6.4.0",
-    "eslint-config-scuba-squad": "^1.1.2",
+    "eslint": "^6.8.0",
+    "eslint-config-scuba-squad": "^2.0.0",
     "grunt": "^1.0.3",
     "grunt-eslint": "^22.0.0",
     "mocha": "^6.2.0",
-    "nyc": "^14.1.1",
-    "unit.js": "^2.1.0"
+    "nyc": "^15.0.0",
+    "unit.js": "^2.1.1"
   },
   "dependencies": {
     "@scuba-squad/transformation": "^1.0.2",
