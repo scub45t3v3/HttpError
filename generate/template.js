@@ -67,13 +67,13 @@ const ${name} = function(opt = {}) {
 
 ${name}.prototype = Object.create(prototype, {
   constructor: {
-    value: ${name},
     enumerable: false,
+    value: ${name},
     writable: false,
   },
   name: {
-    value: '${name}',
     enumerable: false,
+    value: '${name}',
     writable: false,
   },
 });
