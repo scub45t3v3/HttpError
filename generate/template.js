@@ -246,9 +246,9 @@ describe('${name}', () => {
       const test = new ${name}();
 
       unit
-        .given(test.message = /asd/)
+        .given(test.message = /asd/u)
         .string(test.message)
-        .is('/asd/')
+        .is('/asd/u')
         .given(test.message = [1, 2, 3])
         .string(test.message)
         .is('1,2,3')
