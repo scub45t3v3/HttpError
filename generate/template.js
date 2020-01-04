@@ -63,7 +63,7 @@ const ${name} = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end ${name}  class definition
+}; // end ${name} class definition
 
 ${name}.prototype = Object.create(prototype, {
   constructor: {
@@ -147,7 +147,7 @@ describe('${name}', () => {
     }); // end it
   }); // end describe #code
 
-  // describe #code
+  // describe #status
   describe('#status', () => {
     it('should be a constant property', () => {
       const test = new ${name}();
@@ -472,7 +472,7 @@ describe('${name}', () => {
 
       unit
         .function(test.get);
-    }); // end #get
+    }); // end it
 
     it('should accept a list of argument names to return an object hash', () => {
       const test = new ${name}();
@@ -532,7 +532,7 @@ describe('${name}', () => {
         .hasProperty('message', '${message}')
         .hasProperty('debug', 'Missing required parameters.')
         .hasProperty('cause', undefined);
-    });
+    }); // end it
   }); // end describe #toJSON
 
   // describe #toString
