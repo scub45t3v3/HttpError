@@ -35,7 +35,7 @@ const getCause = function() {
 };
 
 const get = function(...args) {
-  args = _.flatten(`${args}`.split(/\s*,\s*/));
+  args = _.flatten(`${args}`.split(/\s*,\s*/u));
 
   return _.pick(this, ...args);
 }; // end get
@@ -60,8 +60,8 @@ const toString = function() {
   ]
     .join(' ')
     .trim()
-    .replace(/\s+/, ' ')
-    .replace(/:$/, '');
+    .replace(/\s+/u, ' ')
+    .replace(/:$/u, '');
 }; // end toString
 
 const prototype = Object.create(Error.prototype, {
