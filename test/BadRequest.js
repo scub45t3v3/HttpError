@@ -58,7 +58,7 @@ describe('BadRequest', () => {
     }); // end it
   }); // end describe #code
 
-  // describe #code
+  // describe #status
   describe('#status', () => {
     it('should be a constant property', () => {
       const test = new BadRequest();
@@ -157,9 +157,9 @@ describe('BadRequest', () => {
       const test = new BadRequest();
 
       unit
-        .given(test.message = /asd/)
+        .given(test.message = /asd/u)
         .string(test.message)
-        .is('/asd/')
+        .is('/asd/u')
         .given(test.message = [1, 2, 3])
         .string(test.message)
         .is('1,2,3')
@@ -383,7 +383,7 @@ describe('BadRequest', () => {
 
       unit
         .function(test.get);
-    }); // end #get
+    }); // end it
 
     it('should accept a list of argument names to return an object hash', () => {
       const test = new BadRequest();
@@ -443,7 +443,7 @@ describe('BadRequest', () => {
         .hasProperty('message', 'Please, correct your request and try again.')
         .hasProperty('debug', 'Missing required parameters.')
         .hasProperty('cause', undefined);
-    });
+    }); // end it
   }); // end describe #toJSON
 
   // describe #toString

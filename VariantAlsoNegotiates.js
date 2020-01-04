@@ -54,17 +54,17 @@ const VariantAlsoNegotiates = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end VariantAlsoNegotiates  class definition
+}; // end VariantAlsoNegotiates class definition
 
 VariantAlsoNegotiates.prototype = Object.create(prototype, {
   constructor: {
-    value: VariantAlsoNegotiates,
     enumerable: false,
+    value: VariantAlsoNegotiates,
     writable: false,
   },
   name: {
-    value: 'VariantAlsoNegotiates',
     enumerable: false,
+    value: 'VariantAlsoNegotiates',
     writable: false,
   },
 });

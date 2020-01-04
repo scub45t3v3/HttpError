@@ -811,9 +811,9 @@ should accept stringifiable objects.
 ```js
 const test = new BadGateway();
 unit
-  .given(test.message = /asd/)
+  .given(test.message = /asd/u)
   .string(test.message)
-  .is('/asd/')
+  .is('/asd/u')
   .given(test.message = [1, 2, 3])
   .string(test.message)
   .is('1,2,3')
@@ -1314,9 +1314,9 @@ should accept stringifiable objects.
 ```js
 const test = new BadRequest();
 unit
-  .given(test.message = /asd/)
+  .given(test.message = /asd/u)
   .string(test.message)
-  .is('/asd/')
+  .is('/asd/u')
   .given(test.message = [1, 2, 3])
   .string(test.message)
   .is('1,2,3')
@@ -3086,9 +3086,9 @@ should accept stringifiable objects.
 ```js
 const test = new Conflict();
 unit
-  .given(test.message = /asd/)
+  .given(test.message = /asd/u)
   .string(test.message)
-  .is('/asd/')
+  .is('/asd/u')
   .given(test.message = [1, 2, 3])
   .string(test.message)
   .is('1,2,3')
@@ -3589,9 +3589,9 @@ should accept stringifiable objects.
 ```js
 const test = new ExpectationFailed();
 unit
-  .given(test.message = /asd/)
+  .given(test.message = /asd/u)
   .string(test.message)
-  .is('/asd/')
+  .is('/asd/u')
   .given(test.message = [1, 2, 3])
   .string(test.message)
   .is('1,2,3')
@@ -4092,9 +4092,9 @@ should accept stringifiable objects.
 ```js
 const test = new FailedDependency();
 unit
-  .given(test.message = /asd/)
+  .given(test.message = /asd/u)
   .string(test.message)
-  .is('/asd/')
+  .is('/asd/u')
   .given(test.message = [1, 2, 3])
   .string(test.message)
   .is('1,2,3')
@@ -4595,9 +4595,9 @@ should accept stringifiable objects.
 ```js
 const test = new Forbidden();
 unit
-  .given(test.message = /asd/)
+  .given(test.message = /asd/u)
   .string(test.message)
-  .is('/asd/')
+  .is('/asd/u')
   .given(test.message = [1, 2, 3])
   .string(test.message)
   .is('1,2,3')
@@ -5098,9 +5098,9 @@ should accept stringifiable objects.
 ```js
 const test = new GatewayTimeout();
 unit
-  .given(test.message = /asd/)
+  .given(test.message = /asd/u)
   .string(test.message)
-  .is('/asd/')
+  .is('/asd/u')
   .given(test.message = [1, 2, 3])
   .string(test.message)
   .is('1,2,3')
@@ -5601,9 +5601,9 @@ should accept stringifiable objects.
 ```js
 const test = new Gone();
 unit
-  .given(test.message = /asd/)
+  .given(test.message = /asd/u)
   .string(test.message)
-  .is('/asd/')
+  .is('/asd/u')
   .given(test.message = [1, 2, 3])
   .string(test.message)
   .is('1,2,3')
@@ -6104,9 +6104,9 @@ should accept stringifiable objects.
 ```js
 const test = new HTTPVersionNotSupported();
 unit
-  .given(test.message = /asd/)
+  .given(test.message = /asd/u)
   .string(test.message)
-  .is('/asd/')
+  .is('/asd/u')
   .given(test.message = [1, 2, 3])
   .string(test.message)
   .is('1,2,3')
@@ -8536,9 +8536,9 @@ should accept stringifiable objects.
 ```js
 const test = new IMATeapot();
 unit
-  .given(test.message = /asd/)
+  .given(test.message = /asd/u)
   .string(test.message)
-  .is('/asd/')
+  .is('/asd/u')
   .given(test.message = [1, 2, 3])
   .string(test.message)
   .is('1,2,3')
@@ -9039,9 +9039,9 @@ should accept stringifiable objects.
 ```js
 const test = new InsufficientStorage();
 unit
-  .given(test.message = /asd/)
+  .given(test.message = /asd/u)
   .string(test.message)
-  .is('/asd/')
+  .is('/asd/u')
   .given(test.message = [1, 2, 3])
   .string(test.message)
   .is('1,2,3')
@@ -9542,9 +9542,9 @@ should accept stringifiable objects.
 ```js
 const test = new InternalServerError();
 unit
-  .given(test.message = /asd/)
+  .given(test.message = /asd/u)
   .string(test.message)
-  .is('/asd/')
+  .is('/asd/u')
   .given(test.message = [1, 2, 3])
   .string(test.message)
   .is('1,2,3')
@@ -10045,9 +10045,9 @@ should accept stringifiable objects.
 ```js
 const test = new LengthRequired();
 unit
-  .given(test.message = /asd/)
+  .given(test.message = /asd/u)
   .string(test.message)
-  .is('/asd/')
+  .is('/asd/u')
   .given(test.message = [1, 2, 3])
   .string(test.message)
   .is('1,2,3')
@@ -10548,9 +10548,9 @@ should accept stringifiable objects.
 ```js
 const test = new Locked();
 unit
-  .given(test.message = /asd/)
+  .given(test.message = /asd/u)
   .string(test.message)
-  .is('/asd/')
+  .is('/asd/u')
   .given(test.message = [1, 2, 3])
   .string(test.message)
   .is('1,2,3')
@@ -11051,9 +11051,9 @@ should accept stringifiable objects.
 ```js
 const test = new LoopDetected();
 unit
-  .given(test.message = /asd/)
+  .given(test.message = /asd/u)
   .string(test.message)
-  .is('/asd/')
+  .is('/asd/u')
   .given(test.message = [1, 2, 3])
   .string(test.message)
   .is('1,2,3')
@@ -11554,9 +11554,9 @@ should accept stringifiable objects.
 ```js
 const test = new MethodNotAllowed();
 unit
-  .given(test.message = /asd/)
+  .given(test.message = /asd/u)
   .string(test.message)
-  .is('/asd/')
+  .is('/asd/u')
   .given(test.message = [1, 2, 3])
   .string(test.message)
   .is('1,2,3')
@@ -12057,9 +12057,9 @@ should accept stringifiable objects.
 ```js
 const test = new MisdirectedRequest();
 unit
-  .given(test.message = /asd/)
+  .given(test.message = /asd/u)
   .string(test.message)
-  .is('/asd/')
+  .is('/asd/u')
   .given(test.message = [1, 2, 3])
   .string(test.message)
   .is('1,2,3')
@@ -12560,9 +12560,9 @@ should accept stringifiable objects.
 ```js
 const test = new NetworkAuthenticationRequired();
 unit
-  .given(test.message = /asd/)
+  .given(test.message = /asd/u)
   .string(test.message)
-  .is('/asd/')
+  .is('/asd/u')
   .given(test.message = [1, 2, 3])
   .string(test.message)
   .is('1,2,3')
@@ -13063,9 +13063,9 @@ should accept stringifiable objects.
 ```js
 const test = new NotAcceptable();
 unit
-  .given(test.message = /asd/)
+  .given(test.message = /asd/u)
   .string(test.message)
-  .is('/asd/')
+  .is('/asd/u')
   .given(test.message = [1, 2, 3])
   .string(test.message)
   .is('1,2,3')
@@ -13566,9 +13566,9 @@ should accept stringifiable objects.
 ```js
 const test = new NotExtended();
 unit
-  .given(test.message = /asd/)
+  .given(test.message = /asd/u)
   .string(test.message)
-  .is('/asd/')
+  .is('/asd/u')
   .given(test.message = [1, 2, 3])
   .string(test.message)
   .is('1,2,3')
@@ -14069,9 +14069,9 @@ should accept stringifiable objects.
 ```js
 const test = new NotFound();
 unit
-  .given(test.message = /asd/)
+  .given(test.message = /asd/u)
   .string(test.message)
-  .is('/asd/')
+  .is('/asd/u')
   .given(test.message = [1, 2, 3])
   .string(test.message)
   .is('1,2,3')
@@ -14572,9 +14572,9 @@ should accept stringifiable objects.
 ```js
 const test = new NotImplemented();
 unit
-  .given(test.message = /asd/)
+  .given(test.message = /asd/u)
   .string(test.message)
-  .is('/asd/')
+  .is('/asd/u')
   .given(test.message = [1, 2, 3])
   .string(test.message)
   .is('1,2,3')
@@ -15075,9 +15075,9 @@ should accept stringifiable objects.
 ```js
 const test = new PayloadTooLarge();
 unit
-  .given(test.message = /asd/)
+  .given(test.message = /asd/u)
   .string(test.message)
-  .is('/asd/')
+  .is('/asd/u')
   .given(test.message = [1, 2, 3])
   .string(test.message)
   .is('1,2,3')
@@ -15578,9 +15578,9 @@ should accept stringifiable objects.
 ```js
 const test = new PaymentRequired();
 unit
-  .given(test.message = /asd/)
+  .given(test.message = /asd/u)
   .string(test.message)
-  .is('/asd/')
+  .is('/asd/u')
   .given(test.message = [1, 2, 3])
   .string(test.message)
   .is('1,2,3')
@@ -16081,9 +16081,9 @@ should accept stringifiable objects.
 ```js
 const test = new PreconditionFailed();
 unit
-  .given(test.message = /asd/)
+  .given(test.message = /asd/u)
   .string(test.message)
-  .is('/asd/')
+  .is('/asd/u')
   .given(test.message = [1, 2, 3])
   .string(test.message)
   .is('1,2,3')
@@ -16584,9 +16584,9 @@ should accept stringifiable objects.
 ```js
 const test = new PreconditionRequired();
 unit
-  .given(test.message = /asd/)
+  .given(test.message = /asd/u)
   .string(test.message)
-  .is('/asd/')
+  .is('/asd/u')
   .given(test.message = [1, 2, 3])
   .string(test.message)
   .is('1,2,3')
@@ -17087,9 +17087,9 @@ should accept stringifiable objects.
 ```js
 const test = new ProxyAuthenticationRequired();
 unit
-  .given(test.message = /asd/)
+  .given(test.message = /asd/u)
   .string(test.message)
-  .is('/asd/')
+  .is('/asd/u')
   .given(test.message = [1, 2, 3])
   .string(test.message)
   .is('1,2,3')
@@ -17590,9 +17590,9 @@ should accept stringifiable objects.
 ```js
 const test = new RangeNotSatisfiable();
 unit
-  .given(test.message = /asd/)
+  .given(test.message = /asd/u)
   .string(test.message)
-  .is('/asd/')
+  .is('/asd/u')
   .given(test.message = [1, 2, 3])
   .string(test.message)
   .is('1,2,3')
@@ -18093,9 +18093,9 @@ should accept stringifiable objects.
 ```js
 const test = new RequestHeaderFieldsTooLarge();
 unit
-  .given(test.message = /asd/)
+  .given(test.message = /asd/u)
   .string(test.message)
-  .is('/asd/')
+  .is('/asd/u')
   .given(test.message = [1, 2, 3])
   .string(test.message)
   .is('1,2,3')
@@ -18596,9 +18596,9 @@ should accept stringifiable objects.
 ```js
 const test = new RequestTimeout();
 unit
-  .given(test.message = /asd/)
+  .given(test.message = /asd/u)
   .string(test.message)
-  .is('/asd/')
+  .is('/asd/u')
   .given(test.message = [1, 2, 3])
   .string(test.message)
   .is('1,2,3')
@@ -19648,9 +19648,9 @@ should accept stringifiable objects.
 ```js
 const test = new ServiceUnavailable();
 unit
-  .given(test.message = /asd/)
+  .given(test.message = /asd/u)
   .string(test.message)
-  .is('/asd/')
+  .is('/asd/u')
   .given(test.message = [1, 2, 3])
   .string(test.message)
   .is('1,2,3')
@@ -20151,9 +20151,9 @@ should accept stringifiable objects.
 ```js
 const test = new TooManyRequests();
 unit
-  .given(test.message = /asd/)
+  .given(test.message = /asd/u)
   .string(test.message)
-  .is('/asd/')
+  .is('/asd/u')
   .given(test.message = [1, 2, 3])
   .string(test.message)
   .is('1,2,3')
@@ -20654,9 +20654,9 @@ should accept stringifiable objects.
 ```js
 const test = new URITooLong();
 unit
-  .given(test.message = /asd/)
+  .given(test.message = /asd/u)
   .string(test.message)
-  .is('/asd/')
+  .is('/asd/u')
   .given(test.message = [1, 2, 3])
   .string(test.message)
   .is('1,2,3')
@@ -21157,9 +21157,9 @@ should accept stringifiable objects.
 ```js
 const test = new Unauthorized();
 unit
-  .given(test.message = /asd/)
+  .given(test.message = /asd/u)
   .string(test.message)
-  .is('/asd/')
+  .is('/asd/u')
   .given(test.message = [1, 2, 3])
   .string(test.message)
   .is('1,2,3')
@@ -21660,9 +21660,9 @@ should accept stringifiable objects.
 ```js
 const test = new UnavailableForLegalReasons();
 unit
-  .given(test.message = /asd/)
+  .given(test.message = /asd/u)
   .string(test.message)
-  .is('/asd/')
+  .is('/asd/u')
   .given(test.message = [1, 2, 3])
   .string(test.message)
   .is('1,2,3')
@@ -22163,9 +22163,9 @@ should accept stringifiable objects.
 ```js
 const test = new UnknownError();
 unit
-  .given(test.message = /asd/)
+  .given(test.message = /asd/u)
   .string(test.message)
-  .is('/asd/')
+  .is('/asd/u')
   .given(test.message = [1, 2, 3])
   .string(test.message)
   .is('1,2,3')
@@ -22666,9 +22666,9 @@ should accept stringifiable objects.
 ```js
 const test = new UnprocessableEntity();
 unit
-  .given(test.message = /asd/)
+  .given(test.message = /asd/u)
   .string(test.message)
-  .is('/asd/')
+  .is('/asd/u')
   .given(test.message = [1, 2, 3])
   .string(test.message)
   .is('1,2,3')
@@ -23169,9 +23169,9 @@ should accept stringifiable objects.
 ```js
 const test = new UnsupportedMediaType();
 unit
-  .given(test.message = /asd/)
+  .given(test.message = /asd/u)
   .string(test.message)
-  .is('/asd/')
+  .is('/asd/u')
   .given(test.message = [1, 2, 3])
   .string(test.message)
   .is('1,2,3')
@@ -23672,9 +23672,9 @@ should accept stringifiable objects.
 ```js
 const test = new UpgradeRequired();
 unit
-  .given(test.message = /asd/)
+  .given(test.message = /asd/u)
   .string(test.message)
-  .is('/asd/')
+  .is('/asd/u')
   .given(test.message = [1, 2, 3])
   .string(test.message)
   .is('1,2,3')
@@ -24175,9 +24175,9 @@ should accept stringifiable objects.
 ```js
 const test = new VariantAlsoNegotiates();
 unit
-  .given(test.message = /asd/)
+  .given(test.message = /asd/u)
   .string(test.message)
-  .is('/asd/')
+  .is('/asd/u')
   .given(test.message = [1, 2, 3])
   .string(test.message)
   .is('1,2,3')

@@ -54,17 +54,17 @@ const ServiceUnavailable = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end ServiceUnavailable  class definition
+}; // end ServiceUnavailable class definition
 
 ServiceUnavailable.prototype = Object.create(prototype, {
   constructor: {
-    value: ServiceUnavailable,
     enumerable: false,
+    value: ServiceUnavailable,
     writable: false,
   },
   name: {
-    value: 'ServiceUnavailable',
     enumerable: false,
+    value: 'ServiceUnavailable',
     writable: false,
   },
 });

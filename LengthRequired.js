@@ -54,17 +54,17 @@ const LengthRequired = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end LengthRequired  class definition
+}; // end LengthRequired class definition
 
 LengthRequired.prototype = Object.create(prototype, {
   constructor: {
-    value: LengthRequired,
     enumerable: false,
+    value: LengthRequired,
     writable: false,
   },
   name: {
-    value: 'LengthRequired',
     enumerable: false,
+    value: 'LengthRequired',
     writable: false,
   },
 });

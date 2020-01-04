@@ -54,17 +54,17 @@ const Forbidden = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end Forbidden  class definition
+}; // end Forbidden class definition
 
 Forbidden.prototype = Object.create(prototype, {
   constructor: {
-    value: Forbidden,
     enumerable: false,
+    value: Forbidden,
     writable: false,
   },
   name: {
-    value: 'Forbidden',
     enumerable: false,
+    value: 'Forbidden',
     writable: false,
   },
 });

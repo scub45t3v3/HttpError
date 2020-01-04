@@ -54,17 +54,17 @@ const ExpectationFailed = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end ExpectationFailed  class definition
+}; // end ExpectationFailed class definition
 
 ExpectationFailed.prototype = Object.create(prototype, {
   constructor: {
-    value: ExpectationFailed,
     enumerable: false,
+    value: ExpectationFailed,
     writable: false,
   },
   name: {
-    value: 'ExpectationFailed',
     enumerable: false,
+    value: 'ExpectationFailed',
     writable: false,
   },
 });

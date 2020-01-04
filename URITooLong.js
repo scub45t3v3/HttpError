@@ -54,17 +54,17 @@ const URITooLong = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end URITooLong  class definition
+}; // end URITooLong class definition
 
 URITooLong.prototype = Object.create(prototype, {
   constructor: {
-    value: URITooLong,
     enumerable: false,
+    value: URITooLong,
     writable: false,
   },
   name: {
-    value: 'URITooLong',
     enumerable: false,
+    value: 'URITooLong',
     writable: false,
   },
 });

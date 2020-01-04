@@ -54,17 +54,17 @@ const NotExtended = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end NotExtended  class definition
+}; // end NotExtended class definition
 
 NotExtended.prototype = Object.create(prototype, {
   constructor: {
-    value: NotExtended,
     enumerable: false,
+    value: NotExtended,
     writable: false,
   },
   name: {
-    value: 'NotExtended',
     enumerable: false,
+    value: 'NotExtended',
     writable: false,
   },
 });

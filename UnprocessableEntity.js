@@ -54,17 +54,17 @@ const UnprocessableEntity = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end UnprocessableEntity  class definition
+}; // end UnprocessableEntity class definition
 
 UnprocessableEntity.prototype = Object.create(prototype, {
   constructor: {
-    value: UnprocessableEntity,
     enumerable: false,
+    value: UnprocessableEntity,
     writable: false,
   },
   name: {
-    value: 'UnprocessableEntity',
     enumerable: false,
+    value: 'UnprocessableEntity',
     writable: false,
   },
 });

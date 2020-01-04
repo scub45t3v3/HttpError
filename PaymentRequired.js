@@ -54,17 +54,17 @@ const PaymentRequired = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end PaymentRequired  class definition
+}; // end PaymentRequired class definition
 
 PaymentRequired.prototype = Object.create(prototype, {
   constructor: {
-    value: PaymentRequired,
     enumerable: false,
+    value: PaymentRequired,
     writable: false,
   },
   name: {
-    value: 'PaymentRequired',
     enumerable: false,
+    value: 'PaymentRequired',
     writable: false,
   },
 });

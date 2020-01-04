@@ -54,17 +54,17 @@ const MethodNotAllowed = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end MethodNotAllowed  class definition
+}; // end MethodNotAllowed class definition
 
 MethodNotAllowed.prototype = Object.create(prototype, {
   constructor: {
-    value: MethodNotAllowed,
     enumerable: false,
+    value: MethodNotAllowed,
     writable: false,
   },
   name: {
-    value: 'MethodNotAllowed',
     enumerable: false,
+    value: 'MethodNotAllowed',
     writable: false,
   },
 });

@@ -54,17 +54,17 @@ const MisdirectedRequest = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end MisdirectedRequest  class definition
+}; // end MisdirectedRequest class definition
 
 MisdirectedRequest.prototype = Object.create(prototype, {
   constructor: {
-    value: MisdirectedRequest,
     enumerable: false,
+    value: MisdirectedRequest,
     writable: false,
   },
   name: {
-    value: 'MisdirectedRequest',
     enumerable: false,
+    value: 'MisdirectedRequest',
     writable: false,
   },
 });

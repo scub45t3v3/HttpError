@@ -54,17 +54,17 @@ const BadRequest = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end BadRequest  class definition
+}; // end BadRequest class definition
 
 BadRequest.prototype = Object.create(prototype, {
   constructor: {
-    value: BadRequest,
     enumerable: false,
+    value: BadRequest,
     writable: false,
   },
   name: {
-    value: 'BadRequest',
     enumerable: false,
+    value: 'BadRequest',
     writable: false,
   },
 });

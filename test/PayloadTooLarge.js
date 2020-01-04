@@ -58,7 +58,7 @@ describe('PayloadTooLarge', () => {
     }); // end it
   }); // end describe #code
 
-  // describe #code
+  // describe #status
   describe('#status', () => {
     it('should be a constant property', () => {
       const test = new PayloadTooLarge();
@@ -157,9 +157,9 @@ describe('PayloadTooLarge', () => {
       const test = new PayloadTooLarge();
 
       unit
-        .given(test.message = /asd/)
+        .given(test.message = /asd/u)
         .string(test.message)
-        .is('/asd/')
+        .is('/asd/u')
         .given(test.message = [1, 2, 3])
         .string(test.message)
         .is('1,2,3')
@@ -383,7 +383,7 @@ describe('PayloadTooLarge', () => {
 
       unit
         .function(test.get);
-    }); // end #get
+    }); // end it
 
     it('should accept a list of argument names to return an object hash', () => {
       const test = new PayloadTooLarge();
@@ -443,7 +443,7 @@ describe('PayloadTooLarge', () => {
         .hasProperty('message', 'Request payload is too large and can not be processed.')
         .hasProperty('debug', 'Missing required parameters.')
         .hasProperty('cause', undefined);
-    });
+    }); // end it
   }); // end describe #toJSON
 
   // describe #toString

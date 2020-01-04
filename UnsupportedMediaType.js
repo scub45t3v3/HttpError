@@ -54,17 +54,17 @@ const UnsupportedMediaType = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end UnsupportedMediaType  class definition
+}; // end UnsupportedMediaType class definition
 
 UnsupportedMediaType.prototype = Object.create(prototype, {
   constructor: {
-    value: UnsupportedMediaType,
     enumerable: false,
+    value: UnsupportedMediaType,
     writable: false,
   },
   name: {
-    value: 'UnsupportedMediaType',
     enumerable: false,
+    value: 'UnsupportedMediaType',
     writable: false,
   },
 });

@@ -54,17 +54,17 @@ const UnavailableForLegalReasons = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end UnavailableForLegalReasons  class definition
+}; // end UnavailableForLegalReasons class definition
 
 UnavailableForLegalReasons.prototype = Object.create(prototype, {
   constructor: {
-    value: UnavailableForLegalReasons,
     enumerable: false,
+    value: UnavailableForLegalReasons,
     writable: false,
   },
   name: {
-    value: 'UnavailableForLegalReasons',
     enumerable: false,
+    value: 'UnavailableForLegalReasons',
     writable: false,
   },
 });

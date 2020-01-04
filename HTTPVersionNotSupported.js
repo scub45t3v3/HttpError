@@ -54,17 +54,17 @@ const HTTPVersionNotSupported = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end HTTPVersionNotSupported  class definition
+}; // end HTTPVersionNotSupported class definition
 
 HTTPVersionNotSupported.prototype = Object.create(prototype, {
   constructor: {
-    value: HTTPVersionNotSupported,
     enumerable: false,
+    value: HTTPVersionNotSupported,
     writable: false,
   },
   name: {
-    value: 'HTTPVersionNotSupported',
     enumerable: false,
+    value: 'HTTPVersionNotSupported',
     writable: false,
   },
 });

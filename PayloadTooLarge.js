@@ -54,17 +54,17 @@ const PayloadTooLarge = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end PayloadTooLarge  class definition
+}; // end PayloadTooLarge class definition
 
 PayloadTooLarge.prototype = Object.create(prototype, {
   constructor: {
-    value: PayloadTooLarge,
     enumerable: false,
+    value: PayloadTooLarge,
     writable: false,
   },
   name: {
-    value: 'PayloadTooLarge',
     enumerable: false,
+    value: 'PayloadTooLarge',
     writable: false,
   },
 });

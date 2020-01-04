@@ -54,17 +54,17 @@ const InsufficientStorage = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end InsufficientStorage  class definition
+}; // end InsufficientStorage class definition
 
 InsufficientStorage.prototype = Object.create(prototype, {
   constructor: {
-    value: InsufficientStorage,
     enumerable: false,
+    value: InsufficientStorage,
     writable: false,
   },
   name: {
-    value: 'InsufficientStorage',
     enumerable: false,
+    value: 'InsufficientStorage',
     writable: false,
   },
 });

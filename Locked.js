@@ -54,17 +54,17 @@ const Locked = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end Locked  class definition
+}; // end Locked class definition
 
 Locked.prototype = Object.create(prototype, {
   constructor: {
-    value: Locked,
     enumerable: false,
+    value: Locked,
     writable: false,
   },
   name: {
-    value: 'Locked',
     enumerable: false,
+    value: 'Locked',
     writable: false,
   },
 });

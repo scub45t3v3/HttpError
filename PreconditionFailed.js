@@ -54,17 +54,17 @@ const PreconditionFailed = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end PreconditionFailed  class definition
+}; // end PreconditionFailed class definition
 
 PreconditionFailed.prototype = Object.create(prototype, {
   constructor: {
-    value: PreconditionFailed,
     enumerable: false,
+    value: PreconditionFailed,
     writable: false,
   },
   name: {
-    value: 'PreconditionFailed',
     enumerable: false,
+    value: 'PreconditionFailed',
     writable: false,
   },
 });

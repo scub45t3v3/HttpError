@@ -54,17 +54,17 @@ const InternalServerError = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end InternalServerError  class definition
+}; // end InternalServerError class definition
 
 InternalServerError.prototype = Object.create(prototype, {
   constructor: {
-    value: InternalServerError,
     enumerable: false,
+    value: InternalServerError,
     writable: false,
   },
   name: {
-    value: 'InternalServerError',
     enumerable: false,
+    value: 'InternalServerError',
     writable: false,
   },
 });

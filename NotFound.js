@@ -54,17 +54,17 @@ const NotFound = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end NotFound  class definition
+}; // end NotFound class definition
 
 NotFound.prototype = Object.create(prototype, {
   constructor: {
-    value: NotFound,
     enumerable: false,
+    value: NotFound,
     writable: false,
   },
   name: {
-    value: 'NotFound',
     enumerable: false,
+    value: 'NotFound',
     writable: false,
   },
 });

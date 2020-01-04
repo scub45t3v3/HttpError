@@ -54,17 +54,17 @@ const UnknownError = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end UnknownError  class definition
+}; // end UnknownError class definition
 
 UnknownError.prototype = Object.create(prototype, {
   constructor: {
-    value: UnknownError,
     enumerable: false,
+    value: UnknownError,
     writable: false,
   },
   name: {
-    value: 'UnknownError',
     enumerable: false,
+    value: 'UnknownError',
     writable: false,
   },
 });

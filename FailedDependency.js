@@ -54,17 +54,17 @@ const FailedDependency = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end FailedDependency  class definition
+}; // end FailedDependency class definition
 
 FailedDependency.prototype = Object.create(prototype, {
   constructor: {
-    value: FailedDependency,
     enumerable: false,
+    value: FailedDependency,
     writable: false,
   },
   name: {
-    value: 'FailedDependency',
     enumerable: false,
+    value: 'FailedDependency',
     writable: false,
   },
 });

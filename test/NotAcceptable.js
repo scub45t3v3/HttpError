@@ -58,7 +58,7 @@ describe('NotAcceptable', () => {
     }); // end it
   }); // end describe #code
 
-  // describe #code
+  // describe #status
   describe('#status', () => {
     it('should be a constant property', () => {
       const test = new NotAcceptable();
@@ -157,9 +157,9 @@ describe('NotAcceptable', () => {
       const test = new NotAcceptable();
 
       unit
-        .given(test.message = /asd/)
+        .given(test.message = /asd/u)
         .string(test.message)
-        .is('/asd/')
+        .is('/asd/u')
         .given(test.message = [1, 2, 3])
         .string(test.message)
         .is('1,2,3')
@@ -383,7 +383,7 @@ describe('NotAcceptable', () => {
 
       unit
         .function(test.get);
-    }); // end #get
+    }); // end it
 
     it('should accept a list of argument names to return an object hash', () => {
       const test = new NotAcceptable();
@@ -443,7 +443,7 @@ describe('NotAcceptable', () => {
         .hasProperty('message', 'The requested document format is not supported.')
         .hasProperty('debug', 'Missing required parameters.')
         .hasProperty('cause', undefined);
-    });
+    }); // end it
   }); // end describe #toJSON
 
   // describe #toString

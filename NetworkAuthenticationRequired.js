@@ -54,17 +54,17 @@ const NetworkAuthenticationRequired = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end NetworkAuthenticationRequired  class definition
+}; // end NetworkAuthenticationRequired class definition
 
 NetworkAuthenticationRequired.prototype = Object.create(prototype, {
   constructor: {
-    value: NetworkAuthenticationRequired,
     enumerable: false,
+    value: NetworkAuthenticationRequired,
     writable: false,
   },
   name: {
-    value: 'NetworkAuthenticationRequired',
     enumerable: false,
+    value: 'NetworkAuthenticationRequired',
     writable: false,
   },
 });

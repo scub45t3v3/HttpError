@@ -54,17 +54,17 @@ const PreconditionRequired = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end PreconditionRequired  class definition
+}; // end PreconditionRequired class definition
 
 PreconditionRequired.prototype = Object.create(prototype, {
   constructor: {
-    value: PreconditionRequired,
     enumerable: false,
+    value: PreconditionRequired,
     writable: false,
   },
   name: {
-    value: 'PreconditionRequired',
     enumerable: false,
+    value: 'PreconditionRequired',
     writable: false,
   },
 });

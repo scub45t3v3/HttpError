@@ -54,17 +54,17 @@ const RequestTimeout = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end RequestTimeout  class definition
+}; // end RequestTimeout class definition
 
 RequestTimeout.prototype = Object.create(prototype, {
   constructor: {
-    value: RequestTimeout,
     enumerable: false,
+    value: RequestTimeout,
     writable: false,
   },
   name: {
-    value: 'RequestTimeout',
     enumerable: false,
+    value: 'RequestTimeout',
     writable: false,
   },
 });

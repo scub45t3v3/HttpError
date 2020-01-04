@@ -54,17 +54,17 @@ const LoopDetected = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end LoopDetected  class definition
+}; // end LoopDetected class definition
 
 LoopDetected.prototype = Object.create(prototype, {
   constructor: {
-    value: LoopDetected,
     enumerable: false,
+    value: LoopDetected,
     writable: false,
   },
   name: {
-    value: 'LoopDetected',
     enumerable: false,
+    value: 'LoopDetected',
     writable: false,
   },
 });

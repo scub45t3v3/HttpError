@@ -54,17 +54,17 @@ const BadGateway = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end BadGateway  class definition
+}; // end BadGateway class definition
 
 BadGateway.prototype = Object.create(prototype, {
   constructor: {
-    value: BadGateway,
     enumerable: false,
+    value: BadGateway,
     writable: false,
   },
   name: {
-    value: 'BadGateway',
     enumerable: false,
+    value: 'BadGateway',
     writable: false,
   },
 });

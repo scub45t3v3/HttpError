@@ -54,17 +54,17 @@ const RangeNotSatisfiable = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end RangeNotSatisfiable  class definition
+}; // end RangeNotSatisfiable class definition
 
 RangeNotSatisfiable.prototype = Object.create(prototype, {
   constructor: {
-    value: RangeNotSatisfiable,
     enumerable: false,
+    value: RangeNotSatisfiable,
     writable: false,
   },
   name: {
-    value: 'RangeNotSatisfiable',
     enumerable: false,
+    value: 'RangeNotSatisfiable',
     writable: false,
   },
 });

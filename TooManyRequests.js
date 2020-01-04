@@ -54,17 +54,17 @@ const TooManyRequests = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end TooManyRequests  class definition
+}; // end TooManyRequests class definition
 
 TooManyRequests.prototype = Object.create(prototype, {
   constructor: {
-    value: TooManyRequests,
     enumerable: false,
+    value: TooManyRequests,
     writable: false,
   },
   name: {
-    value: 'TooManyRequests',
     enumerable: false,
+    value: 'TooManyRequests',
     writable: false,
   },
 });

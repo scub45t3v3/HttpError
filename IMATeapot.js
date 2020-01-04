@@ -54,17 +54,17 @@ const IMATeapot = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end IMATeapot  class definition
+}; // end IMATeapot class definition
 
 IMATeapot.prototype = Object.create(prototype, {
   constructor: {
-    value: IMATeapot,
     enumerable: false,
+    value: IMATeapot,
     writable: false,
   },
   name: {
-    value: 'IMATeapot',
     enumerable: false,
+    value: 'IMATeapot',
     writable: false,
   },
 });

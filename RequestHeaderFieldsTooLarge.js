@@ -54,17 +54,17 @@ const RequestHeaderFieldsTooLarge = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end RequestHeaderFieldsTooLarge  class definition
+}; // end RequestHeaderFieldsTooLarge class definition
 
 RequestHeaderFieldsTooLarge.prototype = Object.create(prototype, {
   constructor: {
-    value: RequestHeaderFieldsTooLarge,
     enumerable: false,
+    value: RequestHeaderFieldsTooLarge,
     writable: false,
   },
   name: {
-    value: 'RequestHeaderFieldsTooLarge',
     enumerable: false,
+    value: 'RequestHeaderFieldsTooLarge',
     writable: false,
   },
 });

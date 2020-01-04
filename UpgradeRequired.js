@@ -54,17 +54,17 @@ const UpgradeRequired = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end UpgradeRequired  class definition
+}; // end UpgradeRequired class definition
 
 UpgradeRequired.prototype = Object.create(prototype, {
   constructor: {
-    value: UpgradeRequired,
     enumerable: false,
+    value: UpgradeRequired,
     writable: false,
   },
   name: {
-    value: 'UpgradeRequired',
     enumerable: false,
+    value: 'UpgradeRequired',
     writable: false,
   },
 });

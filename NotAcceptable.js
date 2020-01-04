@@ -54,17 +54,17 @@ const NotAcceptable = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end NotAcceptable  class definition
+}; // end NotAcceptable class definition
 
 NotAcceptable.prototype = Object.create(prototype, {
   constructor: {
-    value: NotAcceptable,
     enumerable: false,
+    value: NotAcceptable,
     writable: false,
   },
   name: {
-    value: 'NotAcceptable',
     enumerable: false,
+    value: 'NotAcceptable',
     writable: false,
   },
 });

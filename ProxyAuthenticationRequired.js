@@ -54,17 +54,17 @@ const ProxyAuthenticationRequired = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end ProxyAuthenticationRequired  class definition
+}; // end ProxyAuthenticationRequired class definition
 
 ProxyAuthenticationRequired.prototype = Object.create(prototype, {
   constructor: {
-    value: ProxyAuthenticationRequired,
     enumerable: false,
+    value: ProxyAuthenticationRequired,
     writable: false,
   },
   name: {
-    value: 'ProxyAuthenticationRequired',
     enumerable: false,
+    value: 'ProxyAuthenticationRequired',
     writable: false,
   },
 });

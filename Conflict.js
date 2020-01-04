@@ -54,17 +54,17 @@ const Conflict = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end Conflict  class definition
+}; // end Conflict class definition
 
 Conflict.prototype = Object.create(prototype, {
   constructor: {
-    value: Conflict,
     enumerable: false,
+    value: Conflict,
     writable: false,
   },
   name: {
-    value: 'Conflict',
     enumerable: false,
+    value: 'Conflict',
     writable: false,
   },
 });

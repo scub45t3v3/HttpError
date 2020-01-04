@@ -54,17 +54,17 @@ const Unauthorized = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end Unauthorized  class definition
+}; // end Unauthorized class definition
 
 Unauthorized.prototype = Object.create(prototype, {
   constructor: {
-    value: Unauthorized,
     enumerable: false,
+    value: Unauthorized,
     writable: false,
   },
   name: {
-    value: 'Unauthorized',
     enumerable: false,
+    value: 'Unauthorized',
     writable: false,
   },
 });

@@ -54,17 +54,17 @@ const Gone = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end Gone  class definition
+}; // end Gone class definition
 
 Gone.prototype = Object.create(prototype, {
   constructor: {
-    value: Gone,
     enumerable: false,
+    value: Gone,
     writable: false,
   },
   name: {
-    value: 'Gone',
     enumerable: false,
+    value: 'Gone',
     writable: false,
   },
 });

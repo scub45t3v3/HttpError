@@ -54,17 +54,17 @@ const NotImplemented = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end NotImplemented  class definition
+}; // end NotImplemented class definition
 
 NotImplemented.prototype = Object.create(prototype, {
   constructor: {
-    value: NotImplemented,
     enumerable: false,
+    value: NotImplemented,
     writable: false,
   },
   name: {
-    value: 'NotImplemented',
     enumerable: false,
+    value: 'NotImplemented',
     writable: false,
   },
 });

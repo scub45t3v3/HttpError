@@ -54,17 +54,17 @@ const GatewayTimeout = function(opt = {}) {
   Object.seal(this);
 
   return this.set(opt);
-}; // end GatewayTimeout  class definition
+}; // end GatewayTimeout class definition
 
 GatewayTimeout.prototype = Object.create(prototype, {
   constructor: {
-    value: GatewayTimeout,
     enumerable: false,
+    value: GatewayTimeout,
     writable: false,
   },
   name: {
-    value: 'GatewayTimeout',
     enumerable: false,
+    value: 'GatewayTimeout',
     writable: false,
   },
 });
