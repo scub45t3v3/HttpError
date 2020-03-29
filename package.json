@@ -1,7 +1,7 @@
 {
   "name": "@scuba-squad/http-error",
   "description": "HttpError class definition",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "public": true,
   "main": "index.js",
   "license": "MIT",
