@@ -2,7 +2,7 @@
 
 <a name="status"></a>
 ## Status
-[![Build Status](https://travis-ci.org/scub45t3v3/HttpError.svg?branch=master)](https://travis-ci.org/scub45t3v3/HttpError)
+[![Build Status](https://github.com/scub45t3v3/httperror/workflows/CI/badge.svg?event=push)](https://github.com/scub45t3v3/httperror/actions)
 [![Coverage Status](https://coveralls.io/repos/github/scub45t3v3/HttpError/badge.svg)](https://coveralls.io/github/scub45t3v3/HttpError)
 
 <a name="toc"></a>
